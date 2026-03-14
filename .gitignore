@@ -30,6 +30,8 @@ server/src/**/*.js
 server/src/**/*.js.map
 server/src/**/*.d.ts
 server/src/**/*.d.ts.map
+# Un-ignore hand-written type declarations (not generated build artifacts)
+!server/src/types/*.d.ts
 tmp/
 
 # Editor / tool temp files
